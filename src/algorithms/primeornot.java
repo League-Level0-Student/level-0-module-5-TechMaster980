@@ -1,3 +1,6 @@
+
+
+
 package algorithms;
 
 import javax.swing.JOptionPane;
@@ -11,7 +14,7 @@ String prime = JOptionPane.showInputDialog("Put a number in");
 int p = Integer.parseInt(prime);
 boolean isPrime = true;
 
-if (p%2==0) {
+if (p%2==0 && p>2) {
 	isPrime=false;
 }
 else {
@@ -32,6 +35,7 @@ else {
 }
 
 }
+
 
 
 }
